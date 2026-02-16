@@ -9,6 +9,38 @@
         body {
     color: #333;
             }
+    #main-header {
+        background-color: lightblue;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        color: #333333;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    .card{
+        padding: 15px;
+        border:1px solid #ddd;
+        border-radius: 8px;
+        margin: 10px 0;
+    }
+    a{
+        color:aqua;
+        background-color: floralwhite;
+        font-weight: bold;
+    }
+    footer{
+        background-color: lightblue;
+    }
+
     </style>
 </head>
 <body>
@@ -30,12 +62,12 @@
     <main>
         <section class="card" id="about">
             <h2>About Me</h2>
-            <p>Write a short paragraph about yourself here. Include your interests, your field of study, and what you hope to achieve in this course.</p>
+            <p>My name is Peaceful and I am interested in movies and reading books. I am in computer science and I hope to learn something new in this course</p>
         </section>
 
         <article class="card" id="projects">
             <h2>Latest Project</h2>
-            <p>Describe a project you have worked on or are currently working on. This could be a personal project, a group assignment, or something you built for fun.</p>
+            <p>I am currently working on an Information Systems project working with a company to building them a website for their business</p>
         </article>
     </main>
 
